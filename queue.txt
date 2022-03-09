@@ -1,0 +1,24 @@
+là một dạng container adaptors giống như kiểu stack, nhưng nó có những điểm khác biệt
+stack là vào sau ra trước, thì hàng đợi (queue) lại vào trước ra trước, giống như nguyên lý xếp hàng mua đồ
+Các phần tử được chèn vào và được hủy bỏ từ phía trước
+
+
+front() :  hàm trả về giá trị đầu tiên của queue
+   	   giá trị(phần tử) này sẽ bị xóa sau khi hàm pop() được gọi ngay sau đó
+
+	   Lấy giá trị từng phần tử của queue, hoặc show danh sách
+	   Mỗi lần front thì lại thực hiện pop để hàng đợi xóa phần tử đầu tiên, và phần tử tiếp theo sẽ được thế vào vị trí đầu tiên
+
+pop()	: hàm xóa giá trị(phần tử)
+
+size() : lấy số lượng phần tử nó sở hữu bên trong
+
+push() : đẩy dữ liệu vào
+
+front(), back(): hàng đợi không bị mất đi phần tử
+		 khi muốn lấy giá trị của phần tử đầu và phần tử cuối
+
+Kiểm tra xem mảng có phần tử nào không
+	Có thể sử dụng hàm size() để kiểm tra số lượng phần tử với 0
+
+	Sử dụng hàm empty():  trả về true nếu số lượng phần tử = 0 và ngược lại là false

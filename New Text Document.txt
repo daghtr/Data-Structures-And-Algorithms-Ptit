@@ -1,0 +1,3 @@
+pow() -> hàm tính giai thừa
+sort() -> sắp xếp tăng dần từ đầu đến cuối
+size(), length() -> hàm trả về giá trị bằng với số lượng ký tự được lưu trữ trong 1 chuỗi (string)
